@@ -1,9 +1,9 @@
 class PinpointAgent < Formula
   desc "Pinpoint Agent is the software that runs on customer-premise to collect and deliver performance details to the Pinpoint Cloud"
   homepage "https://pinpoint.com"
-  url "https://github.com/pinpt/agent/releases/download/v2.0.1/pinpoint-agent_2.0.1_darwin_amd64.tar.gz"
-  version "2.0.1"
-  sha256 "2a7f2736038127b69bb16a3a44facea228c0c57ffea8c013eed3dbde9992a70c"
+  url "https://github.com/pinpt/agent/releases/download/v2.0.2/pinpoint-agent_2.0.2_darwin_amd64.tar.gz"
+  version "2.0.2"
+  sha256 "5ca3b9260ac4537d8262627f70fb4bbf8ebff50ca5fe2caba0d7465c9e65e999"
 
   def install
     bin.install "pinpoint-agent"
