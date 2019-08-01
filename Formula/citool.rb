@@ -2,14 +2,14 @@
 class Citool < Formula
   desc "Pinpoint CI Tool is a utility to collect and deliver CI/CD details to the Pinpoint Cloud"
   homepage "https://pinpoint.com"
-  version "0.0.2"
+  version "0.0.3"
 
   if OS.mac?
-    url "https://github.com/pinpt/citool/releases/download/0.0.2/citool_0.0.2_Darwin_x86_64.tar.gz"
-    sha256 "327763176cd29efb5418af8e5a063333bf3aa57c65f29bd5cc4b776004e4451b"
+    url "https://github.com/pinpt/citool/releases/download/0.0.3/citool_0.0.3_Darwin_x86_64.tar.gz"
+    sha256 "03591e23ae6dcad1a5cafe2879a8a6a77f519844914454c6e86ea2e8cb58babe"
   elsif OS.linux?
-    url "https://github.com/pinpt/citool/releases/download/0.0.2/citool_0.0.2_Linux_x86_64.tar.gz"
-    sha256 "9523cce28611340c258601306eb2275aea12174c6ec2c75de988e5bf8795a142"
+    url "https://github.com/pinpt/citool/releases/download/0.0.3/citool_0.0.3_Linux_x86_64.tar.gz"
+    sha256 "acb7d8de158c93748567f3ebe19d621d3970e09c882db935ca1b7ecf723abfa5"
   end
 
   def install
