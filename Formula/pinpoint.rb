@@ -2,14 +2,14 @@
 class Pinpoint < Formula
   desc "Pinpoint CI Tool is a utility to collect and deliver CI/CD details to the Pinpoint Cloud"
   homepage "https://pinpoint.com"
-  version "0.0.4"
+  version "0.0.5"
 
   if OS.mac?
-    url "https://github.com/pinpt/pinpoint/releases/download/0.0.4/pinpoint_0.0.4_Darwin_x86_64.tar.gz"
-    sha256 "2ab312771f5dbf38da3e9136e1a8a51de8c6ea87ea409fae022e33655df8ee54"
+    url "https://github.com/pinpt/pinpoint/releases/download/0.0.5/pinpoint_0.0.5_Darwin_x86_64.tar.gz"
+    sha256 "f7ff491b1c5b9141d7acbdb01840c479ef80b43b065e93e1d2dd7a44dc8defba"
   elsif OS.linux?
-    url "https://github.com/pinpt/pinpoint/releases/download/0.0.4/pinpoint_0.0.4_Linux_x86_64.tar.gz"
-    sha256 "46b8d9fe284b85e9cc6b73dd2972d781a4e205968d2198f1e3ea9d1253d8ab7c"
+    url "https://github.com/pinpt/pinpoint/releases/download/0.0.5/pinpoint_0.0.5_Linux_x86_64.tar.gz"
+    sha256 "ffd1452e0fed1126f360048f88260ecbc5369c85f75b83b1d1f86dd0ff55c255"
   end
 
   def install
