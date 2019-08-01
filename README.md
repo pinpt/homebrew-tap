@@ -8,8 +8,8 @@ Homebrew Formulae to @pinpt binaries, powered by @goreleaser
 brew install goreleaser/tap/pinpoint-agent
 ```
 
-## Pinpoint CI Tool
+## Pinpoint Tool
 
 ```sh
-brew install goreleaser/tap/citool
+brew install goreleaser/tap/pinpoint
 ```
