@@ -1,15 +1,9 @@
-# homebrew-tap [![Powered By: GoReleaser](https://img.shields.io/badge/powered%20by-goreleaser-green.svg?style=flat-square)](https://github.com/goreleaser)
+# homebrew-tap
 
-Homebrew Formulae to @pinpt binaries, powered by @goreleaser
+Homebrew Formulae to @pinpt binaries
 
-## Pinpoint Agent
-
-```sh
-brew install goreleaser/tap/pinpoint-agent
-```
-
-## Pinpoint Tool
+## Pinpoint MacOS Desktop app
 
 ```sh
-brew install goreleaser/tap/pinpoint
+brew install --cask pinpoint
 ```
